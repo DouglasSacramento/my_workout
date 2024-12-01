@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+h2 {
+  align-items: flex-start;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  cursor: pointer;
+  width: fit-content;
+}
+
+span {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.card {
+  position: relative;
+  height: 100vh;
+  width: 35rem;
+  margin: 0 auto 10rem;
+  padding: 5rem 2rem;
+}
+
+.workouts {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.workouts i {
+  font-size: 2.5rem;
+}
+
+.workouts div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.ph-check {
+  color: #77ff00;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+#id-home {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  margin-top: -5rem;
+}
+
+.id-fullbody {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 1rem;
+}
+
+/* Page HOME */
+h1 {
+  font-size: 3.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+i {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  padding-top: 2rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+select {
+  margin-top: 0.2rem;
+  padding: 1rem;
+  text-align: start;
+
+  border-radius: 1rem;
+  width: 12rem;
+  font-size: 1.2rem;
+}
+
+option {
+  text-align: start;
+}
+
+#btn-ok {
+  padding: 1.1rem;
+  text-align: center;
+
+  border-radius: 1rem;
+  border: 0.1rem solid greenyellow;
+  background: greenyellow;
+
+  cursor: pointer;
+  width: 4rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Page FULL BODY */
+#icon-home {
+  position: absolute;
+  left: 3rem;
+  top: 2rem;
+}

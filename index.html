@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My workouts</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div class="card" id="page-home">
+      <div id="id-home">
+        <h1>Bora começar?</h1>
+        <fieldset>
+          <legend for="workout-select">Escolha o treino:</legend>
+          <select name="allWorkouts" id="workout-select">
+            <option value="select">Selecione</option>
+            <option value="fullbody">Fullbody</option>
+          </select>
+          <button id="btn-ok">Ok</button>
+        </fieldset>
+      </div>
+    </div>
+
+    <div class="hide" id="page-fullbody">
+      <div class="id-fullbody">
+        <i class="ph ph-house-simple" id="icon-home"></i>
+        <h2>Fullbody</h2>
+        <div class="workouts">
+          <span>Peitoral</span>
+          <div id="chest">
+            <i class="ph ph-number-circle-one chest" id="one"></i>
+            <i class="ph ph-number-circle-two chest" id="two"></i>
+            <i class="ph ph-number-circle-three chest" id="three"></i>
+            <i class="ph ph-number-circle-four chest" id="four"></i>
+          </div>
+        </div>
+        <div class="workouts">
+          <span id="triceps">Tríceps</span>
+          <div>
+            <i class="ph ph-number-circle-one triceps" id="one"></i>
+            <i class="ph ph-number-circle-two triceps" id="two"></i>
+            <i class="ph ph-number-circle-three triceps" id="three"></i>
+            <i class="ph ph-number-circle-four triceps" id="four"></i>
+          </div>
+        </div>
+        <div class="workouts">
+          <span id="shoulder">Ombro</span>
+          <div>
+            <i class="ph ph-number-circle-one triceps" id="one"></i>
+            <i class="ph ph-number-circle-two triceps" id="two"></i>
+            <i class="ph ph-number-circle-three triceps" id="three"></i>
+            <i class="ph ph-number-circle-four triceps" id="four"></i>
+          </div>
+        </div>
+        <div class="workouts">
+          <span id="back">Dorsal</span>
+          <div>
+            <i class="ph ph-number-circle-one triceps" id="one"></i>
+            <i class="ph ph-number-circle-two triceps" id="two"></i>
+            <i class="ph ph-number-circle-three triceps" id="three"></i>
+            <i class="ph ph-number-circle-four triceps" id="four"></i>
+          </div>
+        </div>
+        <div class="workouts">
+          <span id="biceps">Bíceps</span>
+          <div>
+            <i class="ph ph-number-circle-one triceps" id="one"></i>
+            <i class="ph ph-number-circle-two triceps" id="two"></i>
+            <i class="ph ph-number-circle-three triceps" id="three"></i>
+            <i class="ph ph-number-circle-four triceps" id="four"></i>
+          </div>
+        </div>
+        <div class="workouts">
+          <span id="calf">Panturrilha</span>
+          <div>
+            <i class="ph ph-number-circle-one triceps" id="one"></i>
+            <i class="ph ph-number-circle-two triceps" id="two"></i>
+            <i class="ph ph-number-circle-three triceps" id="three"></i>
+            <i class="ph ph-number-circle-four triceps" id="four"></i>
+          </div>
+        </div>
+        <div class="workouts">
+          <span id="quadriceps">Quadriceps</span>
+          <div>
+            <i class="ph ph-number-circle-one triceps" id="one"></i>
+            <i class="ph ph-number-circle-two triceps" id="two"></i>
+            <i class="ph ph-number-circle-three triceps" id="three"></i>
+            <i class="ph ph-number-circle-four triceps" id="four"></i>
+          </div>
+        </div>
+        <div class="workouts">
+          <span id="posterior">Posterior</span>
+          <div>
+            <i class="ph ph-number-circle-one triceps" id="one"></i>
+            <i class="ph ph-number-circle-two triceps" id="two"></i>
+            <i class="ph ph-number-circle-three triceps" id="three"></i>
+            <i class="ph ph-number-circle-four triceps" id="four"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
