@@ -23,7 +23,7 @@ button {
 }
 
 span {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-top: 2rem;
 }
 
@@ -40,7 +40,7 @@ span {
 }
 
 .workouts {
-  width: 25rem;
+  width: 30rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,7 @@ span {
 }
 
 .workouts i {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .workouts div {
@@ -57,13 +57,13 @@ span {
   margin-top: 2rem;
 }
 
-.ph-check {
-  color: #77ff00;
+.ph-check-fat {
+  color: #00b900;
 }
 
 body {
   height: 100vh;
-  font-size: 1.6rem;
+  font-size: 2rem;
   overflow: hidden;
   display: grid;
   place-items: center;
@@ -127,8 +127,8 @@ option {
   text-align: center;
 
   border-radius: 1rem;
-  border: 0.1rem solid greenyellow;
-  background: greenyellow;
+  border: 0.1rem solid #00b900;
+  background: #00b900;
 
   cursor: pointer;
   width: 4rem;
